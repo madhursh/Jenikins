@@ -1,11 +1,14 @@
-node any{
-    stage ("stage 1"){
+agent any{
+    stages {
 
-    }
-      stage ("stage 2"){
-        
-    }
-      stage ("stage 3"){
-        
+        stage ("stage 1"){
+
+        }
+        stage ("stage 2"){
+            
+        }
+        stage ("stage 3"){
+            
+        }
     }
 }
